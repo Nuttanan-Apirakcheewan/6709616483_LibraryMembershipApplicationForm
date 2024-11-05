@@ -38,6 +38,7 @@ form {
 fieldset
 {
     background-color: rgb(255, 244, 230);
+    padding: 25px;
 }
 
 .switch {
