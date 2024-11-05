@@ -2,7 +2,7 @@
 
 body
 {
-    background: linear-gradient(0,rgba(17, 187, 199, 0.575),rgb(228, 243, 255));
+    background: linear-gradient(0,rgba(199, 126, 17, 0.575),rgb(255, 223, 182));
     min-height: 100vh;
 }
 
@@ -25,19 +25,27 @@ body p
 }
 
 form {
-    max-width: 400px;
+    max-width: 880px;
     margin: 20px auto;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    font-size: large;
+    font-family: Pridi;
+}
+
+fieldset
+{
+    background-color: rgb(255, 244, 230);
 }
 
 .switch {
     position: relative;
     display: inline-block;
-    width: 34px;
-    height: 20px;
+    width: 48px;
+    height: 30px;
+    margin-left: 5px;
 }
 
 .switch input {
@@ -61,9 +69,9 @@ form {
 .slider:before {
     position: absolute;
     content: "";
-    height: 16px;
-    width: 16px;
-    left: 2px;
+    height: 25px;
+    width: 25px;
+    left: 5px;
     bottom: 2px;
     background-color: white;
     transition: .4s;
@@ -78,3 +86,23 @@ input:checked + .slider:before {
     transform: translateX(14px);
 }
 
+
+#submit-button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    font-family: Pridi;
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+#submit-button:hover {
+    background-color: #45a049; 
+}
