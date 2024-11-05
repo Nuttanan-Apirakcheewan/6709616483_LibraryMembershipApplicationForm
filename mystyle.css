@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+body
+{
+    background: linear-gradient(0,rgba(17, 187, 199, 0.575),rgb(228, 243, 255));
+    min-height: 100vh;
+}
+
+body p
+{
+    border: 6px black dotted;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: Pridi;
+    color: black ;
+    text-align: center;
+    font-weight: bold;
+}
+
+.required-asterisk {
+    color: red;
+    margin-left: 2px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
